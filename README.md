@@ -46,7 +46,10 @@ Empresas podem utilizar este projeto para enriquecer bases de dados de clientes 
 
 ## Limitações da API
 
-A API pública utilizada tem uma **limitação de 3 requisições por minuto**. O script implementa uma pausa automática para respeitar esse limite.
+A API pública utilizada tem uma **limitação de 3 requisições por minuto**. Para garantir que o script respeite esse limite, ele implementa um mecanismo de looping que faz a pesquisa de **minuto em minuto**, aguardando o tempo necessário para não ultrapassar o número de requisições permitidas.
+
+O tempo necessário, por exemplo, para gerar 30 respostas é de 10 minutos.
+
 
 ## Configuração e Instalação
 
