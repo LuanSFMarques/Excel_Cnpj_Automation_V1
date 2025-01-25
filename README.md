@@ -2,6 +2,13 @@
 
 Este projeto oferece uma solução automatizada em Python para processar dados de CNPJs extraídos de planilhas Excel, realizar consultas a uma API pública e registrar os resultados diretamente no arquivo Excel. Além disso, os dados são armazenados em um histórico CSV para consultas futuras.
 
+## Disclaimer
+
+(Português)
+**Este algoritmo foi desenvolvido para ser utilizado no Brasil, pois a API integrada é exclusiva para dados relacionados ao Cadastro Nacional da Pessoa Jurídica (CNPJ) no território brasileiro.** Portanto, não será possível utilizá-lo para CNPJs de outros países ou realizar consultas internacionais.
+(English)
+**This algorithm was developed to be used in Brazil, as the integrated API is exclusive for data related to the National Register of Legal Entities (CNPJ) within Brazilian territory. Therefore,** it will not be possible to use it for CNPJs from other countries or perform international queries.
+
 ## Sumário
 
 1. [Visão Geral](#visão-geral)  
